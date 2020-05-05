@@ -50,5 +50,5 @@ gg <- plot_summs(reg1, reg2, scale = TRUE, robust = "HC3", coefs = coef_names, m
 
 gg + 
   theme_gg("Abel", legend = TRUE) + 
-  labs(y = "", x = "Predicting Church Attendance", subtitle = "") +
+  labs(y = "", x = "Marginal Effect on Worship Attendance", subtitle = "") +
   ggsave("D://new_reltrad/images/figure9.png", type = "cairo-png", width = 7)
